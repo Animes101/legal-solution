@@ -276,13 +276,105 @@
     </section>
 
     <!--contacts area start-->
-    <section>
-        <div class="container">
-            <h1>Contact With Us</h1>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+    <section class="my-5">
+        <div class="container mx-auto">
+            <h1 class="text-4xl text-center font-bold eb-garamond-family">Contact With Us</h1>
+            <p class="lg:w-[70%] mx-auto text-center text-gray-700 leading-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             <hr class="border-2 border-gray-400 my-4">
+            <div class="flex flex-col items-center md:items-start   md:flex-row gap-5">
+                <div class="w-full md:w-[60%]">
+                    <div class="grid gap-1 grid-cols-1 md:grid-cols-2">
+                        <div class="card shadow-xl">
+                            <figure class="px-10 pt-10">
+                              <img src="images/location.png" alt="location" class="" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title text-2xl font-bold">Address</h2>
+                              <p class="text-base text-gray-700">A108 Adam Street,</p>
+                              <p class="text-base text-gray-700">New York, NY 535022</p>
+                            </div>
+                        </div>
+                        <div class="card shadow-xl">
+                            <figure class="px-10 pt-10">
+                              <img src="images/location.png" alt="location" class="" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title text-2xl font-bold">Address</h2>
+                              <p class="text-base text-gray-700">A108 Adam Street,</p>
+                              <p class="text-base text-gray-700">New York, NY 535022</p>
+                            </div>
+                        </div>
+                        <div class="card shadow-xl">
+                            <figure class="px-10 pt-10">
+                              <img src="images/location.png" alt="location" class="" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title text-2xl font-bold">Address</h2>
+                              <p class="text-base text-gray-700">A108 Adam Street,</p>
+                              <p class="text-base text-gray-700">New York, NY 535022</p>
+                            </div>
+                        </div>
+                        <div class="card shadow-xl">
+                            <figure class="px-10 pt-10">
+                              <img src="images/location.png" alt="location" class="" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title text-2xl font-bold">Address</h2>
+                              <p class="text-base text-gray-700">A108 Adam Street,</p>
+                              <p class="text-base text-gray-700">New York, NY 535022</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="w-full md:w-[40%]">
+                    <form class="space-y-12" action="">
+                        <input type="text" placeholder="Your Name" class="input input-bordered input-primary w-full" />
+                        <input type="email" placeholder="Your Email" class="input input-bordered input-primary w-full" />
+                        <input type="text" placeholder="Subject" class="input input-bordered input-primary w-full" />
+                        <textarea class="textarea textarea-success block w-full" placeholder="Your Message"></textarea>
+                        <button class="btn btn-outline btn-secondary text-base w-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!--footer start-->
+
+    <footer class="footer p-10 bg-neutral text-neutral-content grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4">
+        <nav>
+          <header class="footer-title text-white text-2xl eb-garamond-family font-bold "> <img src="images/logo.png"  class="inline-block mr-4 w-11">Legal</header> 
+          <p class="text-base w-[200px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+         
+        </nav> 
+        <nav class="space-y-3">
+          <header class="footer-title text-white text-2xl eb-garamond-family font-bold">Usefull Link</header> 
+          <a class="link link-hover">Homes</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Cases</a>
+          <a class="link link-hover">Blog</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav> 
+        <nav class="space-y-4">
+          <header class="footer-title text-white text-2xl eb-garamond-family font-bold">Contact Now</header> 
+          <a class="link link-hover">555 4th 5t NW, Washington</a>
+          <a class="link link-hover">DC 20530, United States</a>
+          <a class="link link-hover">+88 01750 000 000
+            +88 01750 000 000</a>
+            <a href="">info@gmail.com
+                info@gmail.com</a>
+        </nav>
+        <nav class="space-y-4">
+            <header class="footer-title text-white text-2xl eb-garamond-family font-bold">Subscribe</header> 
+            <p class="w-[150px]">Subscribe for our latest & Articles. We Wont Give You Spam Mails</p>
+            <div class="flex min-w-32 bg-white justify-between items-center rounded-md">
+                <input type="text" placeholder="Email Address" class=" input w-[77%]" />
+                <button class="btn bg-yellow-400"><i class="fa-solid text-base fa-paper-plane"></i></button>
+            </div>
+          </nav>
+      </footer>
 
 </body>
 </html>
